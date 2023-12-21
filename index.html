@@ -27,9 +27,11 @@
 </head>
 
 <body>
-    <audio controls autoplay loop hidden>
-        <source src="/videoplayback.mp3" type="audio/mp3">
-      </audio>        <!--================ HEADER ==================-->
+    <iframe src="public/videoplayback.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+    <audio id="player" preload="auto" autoplay loop>
+        <source src="public/videoplayback.mp3" type="audio/mp3">
+</audio>    <!--================ HEADER ==================-->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
