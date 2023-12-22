@@ -10,6 +10,8 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
+document.getElementById('startPlayback').addEventListener('click', startPlayback);
+
 
 // Song titles
 const songs = ["videoplayback"
